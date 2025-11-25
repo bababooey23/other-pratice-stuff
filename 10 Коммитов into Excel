@@ -1,0 +1,16 @@
+from openpyxl import Workbook
+wb = Workbook()
+ws = wb.create_sheet("gjnjkjr")
+if 'Sheet' in wb.sheetnames:
+    wb.remove(wb['Sheet'])
+x = 1
+list = []
+while x <= 10:
+    print("any word ", x)
+    list.append(input())
+    x = x + 1
+print(list)
+ws.append(list)
+print('saving...')
+wb.save('10-Commitov.xlsx')
+print('success. you can open the Excel file now.')
