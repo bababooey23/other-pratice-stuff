@@ -7,4 +7,5 @@ ws['A1'] = "Hello"
 ws['B2'] = "everyone"
 ws['C3'] = "in the"
 ws['D4'] = "world"
+ws['D1'] = input()
 wb.save('rfrfirbyc.xlsx')
