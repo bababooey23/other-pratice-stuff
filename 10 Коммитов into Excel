@@ -6,7 +6,7 @@ if 'Sheet' in wb.sheetnames:
 x = 1
 list = []
 while x <= 10:
-    print("any word ", x)
+    print("type your word №", x)
     list.append(input())
     x = x + 1
 print(list)
